@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 
 class homepage extends StatelessWidget {
   var d = 29;
-  String s ="Ramadhan";
+  String s = "Ramadhan";
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -14,7 +14,7 @@ class homepage extends StatelessWidget {
           child: Text("Welcome to $d days of $s"),
         ),
       ),
-      drawer: Drawer(),
+          drawer: Drawer(),
     );
   }
 }
